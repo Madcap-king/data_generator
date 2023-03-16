@@ -19,7 +19,11 @@ demo
 结构体：
 ![image](https://user-images.githubusercontent.com/77766374/225532329-ae1229c0-c936-406a-803a-ec98b03c27ee.png)
 
-post方法
+支持mongo数据类型：
+![image](https://user-images.githubusercontent.com/77766374/225533962-1753a05f-cb1c-47c4-bb76-9fe77284ee29.png)
+
+
+post方法：
 ![image](https://user-images.githubusercontent.com/77766374/225533580-46236f52-349f-41ea-9e03-60ba8fe19445.png)
 
 
