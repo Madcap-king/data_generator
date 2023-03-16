@@ -16,7 +16,7 @@ var content5 = "{ \"userName\": \"string\", \n    \"nick_name\": \"string\", \n 
 var content6 = "{\n   \"extra\":[\n      {\n         \"address\":[\"string\",\"string\",\"string\"]\n      }\n   ]\n}"
 
 func TestJson(t *testing.T) {
-	data_operator.MongoUri = "mongodb://1.13.197.114:27017"
+	data_operator.MongoUri = "mongodb://127.0.0.1:27017"
 	list := []string{content1, content2, content3, content4, content5, content6}
 	parser := parser_factory.GetParser(constants.JSON)
 	var dataList []interface{}

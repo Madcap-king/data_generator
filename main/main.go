@@ -10,7 +10,7 @@ import (
 
 func main() {
 	port := flag.Int("port", 8081, "端口")
-	data_operator.MongoUri = *flag.String("mongo_uri", "mongodb://1.13.197.114:27017", "数据库连接")
+	data_operator.MongoUri = *flag.String("mongo_uri", "mongodb://127.0.0.1:27017", "数据库连接")
 	flag.Parse()
 	portStr := strconv.Itoa(*port)
 	r := gin.Default()
