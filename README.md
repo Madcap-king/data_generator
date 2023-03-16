@@ -14,13 +14,14 @@ gin搭建的web服务，正常web运行，通过http调用即可
 
 
 
-demo
+使用方法：
+
 
 结构体：
 ![image](https://user-images.githubusercontent.com/77766374/225532329-ae1229c0-c936-406a-803a-ec98b03c27ee.png)
 
 支持mongo数据类型：
-![image](https://user-images.githubusercontent.com/77766374/225533962-1753a05f-cb1c-47c4-bb76-9fe77284ee29.png)
+![image](https://user-images.githubusercontent.com/77766374/225534185-8361c5b6-d1e9-4b98-a31e-adb070ae968f.png)
 
 
 post方法：
@@ -28,7 +29,7 @@ post方法：
 
 
 
-todo
+待做
 docker镜像（待做）
 
 多种文件格式解析（待做）
